@@ -1,12 +1,12 @@
 * Fall 2022 - Lab 07
 
-* Last name:
+* Last name: Dong
 
-* First name:
+* First name: Shenghao
 
-* GitHub username:
+* GitHub username: shenghaodong
 
-* Notes:
+* Notes: Used File Redirection (./a.out < bad-code.cpp)
 
 
   

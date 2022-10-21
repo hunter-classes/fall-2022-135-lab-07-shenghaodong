@@ -9,12 +9,8 @@ TEST_CASE("Remove Leading Spaces"){
     CHECK(removeLeadingSpaces("Hunter College") == "Hunter College");
 }
 
-// TEST_CASE("Count Character"){
-//     CHECK();
-//     CHECK();
-// }
-
-/*
-std::string removeLeadingSpaces(std::string line);
-int countChar(std::string line, char c);
-*/
+TEST_CASE("Count Character"){
+    CHECK(countChar("Hunter College", 'e') == 3);
+    CHECK(countChar("Daedalus", 'a') == 2);
+    CHECK(countChar("Friday", 'r') == 1);
+}
